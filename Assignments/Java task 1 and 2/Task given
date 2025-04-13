@@ -1,0 +1,46 @@
+Task 1: Define Classes 
+
+Define the following classes based on the domain description: 
+Student class with the following attributes: 
+• Student ID 
+• First Name 
+• Last Name 
+• Date of Birth 
+• Email 
+• Phone Number 
+Course class with the following attributes: 
+• Course ID 
+• Course Name 
+• Course Code 
+• Instructor Name 
+Enrollment class to represent the relationship between students and courses. It should have attributes: 
+• Enrollment ID 
+• Student ID (reference to a Student) 
+• Course ID (reference to a Course) 
+• Enrollment Date 
+Teacher class with the following attributes: 
+• Teacher ID 
+• First Name 
+• Last Name 
+• Email 
+Payment class with the following attributes: 
+• Payment ID 
+• Student ID (reference to a Student) 
+• Amount 
+• Payment Date
+
+Task 2: Implement Constructors 
+
+Implement constructors for each class to initialize their attributes. Constructors are special methods that 
+are called when an object of a class is created. They are used to set initial values for the attributes of the 
+class. Below are detailed instructions on how to implement constructors for each class in your Student 
+Information System (SIS) assignment: 
+Student Class Constructor 
+In the Student class, you need to create a constructor that initializes the attributes of a student when an 
+instance of the Student class is created 
+SIS Class Constructor  
+If you have a class that represents the Student Information System itself (e.g., SIS class), you may also 
+implement a constructor for it. This constructor can be used to set up any initial configuration for the 
+SIS. 
+Repeat the above process for each class Course, Enrollment, Teacher, Payment by defining constructors 
+that initialize their respective attributes.
