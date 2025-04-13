@@ -1,0 +1,41 @@
+Task 5: Collections 
+
+Implement Collections: 
+
+Implement relationships between classes using appropriate data structures (e.g., lists or dictionaries) to 
+maintain associations between students, courses, enrollments, teachers, and payments. 
+These relationships are essential for the Student Information System (SIS) to track and manage student 
+enrollments, teacher assignments, and payments accurately. 
+
+Define Class-Level Data Structures 
+You will need class-level data structures within each class to maintain relationships. Here's how to 
+define them for each class: 
+
+Student Class: 
+Create a list or collection property to store the student's enrollments. This property will hold references 
+to Enrollment objects. 
+Example: List<Enrollment> Enrollments { get; set; } 
+
+Course Class: 
+Create a list or collection property to store the course's enrollments. This property will hold references 
+to Enrollment objects. 
+Example: List<Enrollment> Enrollments { get; set; } 
+
+Enrollment Class: 
+Include properties to hold references to both the Student and Course objects. 
+Example: Student Student { get; set; } and Course Course { get; set; } 
+
+Teacher Class: 
+Create a list or collection property to store the teacher's assigned courses. This property will hold 
+references to Course objects. 
+Example: List<Course> AssignedCourses { get; set; } 
+
+Payment Class: 
+Include a property to hold a reference to the Student object. 
+Example: Student Student { get; set; } 
+
+Update Constructor(s) 
+In the constructors of your classes, initialize the list or collection properties to create empty collections 
+when an object is instantiated. 
+
+Repeat this for the Course, Teacher, and Payment classes, where applicable.
