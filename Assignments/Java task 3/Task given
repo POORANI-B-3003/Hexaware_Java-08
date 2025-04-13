@@ -1,0 +1,57 @@
+Task 3: Implement Methods 
+
+Implement methods in your classes to perform various operations related to the Student Information 
+System (SIS). These methods will allow you to interact with and manipulate data within your system. 
+
+Below are detailed instructions on how to implement methods in each class: 
+Implement the following methods in the appropriate classes: 
+
+Student Class: 
+• EnrollInCourse(course: Course): Enrolls the student in a course. 
+• UpdateStudentInfo(firstName: string, lastName: string, dateOfBirth: DateTime, email: string, 
+phoneNumber: string): Updates the student's information. 
+• MakePayment(amount: decimal, paymentDate: DateTime): Records a payment made by the 
+student. 
+• DisplayStudentInfo(): Displays detailed information about the student. 
+• GetEnrolledCourses(): Retrieves a list of courses in which the student is enrolled. 
+• GetPaymentHistory(): Retrieves a list of payment records for the student. 
+
+Course Class: 
+• AssignTeacher(teacher: Teacher): Assigns a teacher to the course. 
+• UpdateCourseInfo(courseCode: string, courseName: string, instructor: string): Updates course 
+information. 
+• DisplayCourseInfo(): Displays detailed information about the course. 
+• GetEnrollments(): Retrieves a list of student enrollments for the course. 
+• GetTeacher(): Retrieves the assigned teacher for the course. 
+
+Enrollment Class: 
+• GetStudent(): Retrieves the student associated with the enrollment. 
+• GetCourse(): Retrieves the course associated with the enrollment. 
+
+Teacher Class:
+• UpdateTeacherInfo(name: string, email: string, expertise: string): Updates teacher information. 
+• DisplayTeacherInfo(): Displays detailed information about the teacher. 
+• GetAssignedCourses(): Retrieves a list of courses assigned to the teacher. 
+
+Payment Class: 
+• GetStudent(): Retrieves the student associated with the payment. 
+• GetPaymentAmount(): Retrieves the payment amount. 
+• GetPaymentDate(): Retrieves the payment date. 
+
+SIS Class (if you have one to manage interactions): 
+• EnrollStudentInCourse(student: Student, course: Course): Enrolls a student in a course. 
+• AssignTeacherToCourse(teacher: Teacher, course: Course): Assigns a teacher to a course. 
+• RecordPayment(student: Student, amount: decimal, paymentDate: DateTime): Records a 
+payment made by a student. 
+• GenerateEnrollmentReport(course: Course): Generates a report of students enrolled in a 
+specific course. 
+• GeneratePaymentReport(student: Student): Generates a report of payments made by a specific 
+student. 
+• CalculateCourseStatistics(course: Course): Calculates statistics for a specific course, such as the 
+number of enrollments and total payments. 
+
+Use the Methods 
+In your driver program or any part of your code where you want to perform actions related to the 
+Student Information System, create instances of your classes, and use the methods you've 
+implemented. 
+Repeat this process for using other methods you've implemented in your classes and the SIS class. 
