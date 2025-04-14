@@ -63,10 +63,10 @@ public class DatabaseInitializer {
                 );
             """);
 
-            System.out.println("✅ Tables created successfully!");
+            System.out.println(" Tables created successfully!");
 
         } catch (Exception e) {
-            System.out.println("❌ Error creating tables: " + e.getMessage());
+            System.out.println(" Error creating tables: " + e.getMessage());
             e.printStackTrace();
         }
     }
