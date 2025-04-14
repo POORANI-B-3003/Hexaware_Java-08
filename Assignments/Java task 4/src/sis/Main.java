@@ -1,4 +1,4 @@
-package sis;
+package com.hexaware.sis.main;
 
 import com.hexaware.sis.entity.Student;
 import com.hexaware.sis.entity.Teacher;
