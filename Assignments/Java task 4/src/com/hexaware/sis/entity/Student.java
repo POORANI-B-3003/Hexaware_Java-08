@@ -8,14 +8,14 @@ public class Student {
     private String firstName;
     private String lastName;
     private List<Payment> payments;
-    private List<Course> enrolledCourses; // Added declaration
+    private List<Course> enrolledCourses; 
 
     public Student(String studentId, String firstName, String lastName) {
         this.studentId = studentId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.payments = new ArrayList<>();
-        this.enrolledCourses = new ArrayList<>(); // Added initialization
+        this.enrolledCourses = new ArrayList<>(); 
     }
 
     public String getStudentId() {
@@ -53,10 +53,10 @@ public class Student {
             System.out.println("No payments found.");
         } else {
             for (Payment p : payments) {
-                if (p != null) { // Added null check
+                if (p != null) { 
                     System.out.println("- Amount: " + p.getPaymentAmount() + ", Date: " + p.getPaymentDate());
                 } else {
-                    System.out.println("- (Null Payment)"); // Handle null payment case
+                    System.out.println("- (Null Payment)"); 
                 }
             }
         }
