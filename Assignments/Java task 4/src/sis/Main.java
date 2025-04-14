@@ -27,16 +27,16 @@ public class Main {
 
         // Enroll student in course with exception handling
         try {
-            sis.enrollStudentInCourse(s1, c1);  // ✅ Success
-            sis.enrollStudentInCourse(s1, c1);  // ❌ Will throw DuplicateEnrollmentException
+            sis.enrollStudentInCourse(s1, c1);  
+            sis.enrollStudentInCourse(s1, c1);  
         } catch (DuplicateEnrollmentException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
         // Record payments with exception handling
         try {
-            sis.recordPayment(s1, 5000.0, new Date());  // ✅ Valid
-            sis.recordPayment(s1, -100.0, new Date());  // ❌ InvalidPaymentException
+            sis.recordPayment(s1, 5000.0, new Date()); 
+            sis.recordPayment(s1, -100.0, new Date());  
         } catch (InvalidPaymentException e) {
             System.out.println("Error: " + e.getMessage());
         }
@@ -46,9 +46,6 @@ public class Main {
         sis.generatePaymentReport(s1);
         sis.calculateCourseStatistics(c1);
 
-        // Optionally display full info
-        // s1.displayStudentInfo();
-        // c1.displayCourseInfo();
-        // t1.displayTeacherInfo();
+    
     }
 }
