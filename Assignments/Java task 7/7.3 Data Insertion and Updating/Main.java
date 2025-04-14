@@ -1,6 +1,6 @@
 //Call the full data insertion code
 
-package sis;
+package com.hexaware.sis.main;
 
 import com.hexaware.sis.db.TestDataInserter;
 
